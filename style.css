@@ -1,8 +1,17 @@
 body {
-    background-color: #CCCCCC
+    background-color: white;
 }
 
-h1 {
+img#banner {
+    width: 100%;
+}
+
+div.principal {
+    background-color: #CCCCCC;
+    padding: 30px;
+}
+
+.titulo-centralizado {
     text-align: center;
 }
 
@@ -10,6 +19,50 @@ p {
     text-align: center;
 }
 
-em strong {
-    color: red;
+p#missao{
+    font-size: 20px;
 }
+
+em strong {
+    color: rgba(255, 0, 0, 1);
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+ul li.itens{
+    font-style: italic;
+}
+
+div.beneficios{
+    background-color: white;
+    padding: 20px;
+}
+
+img.imagemBeneficio{
+    width: 50%;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+/* 
+Dimensão
+Largura:
+Altura:
+EspaçamentoInterno:
+EspaçamentoExterno
+*/
+
+/*
+Largura pode ser apresentada tanto em pixels (Padrão)
+quanto em percentual 
+*/
+
+/*
+Comportamento de os items de uma lista ficar um abaixo do outro sendo ainda com block travando o item
+*/
